@@ -33,6 +33,15 @@ export const useAuth = () => {
   useEffect(() => {
     const run = async () => {
       const isPublic = pathname === NAV_ITEMS.LOGIN || pathname === NAV_ITEMS.SIGNUP;
+      const hasToken = !!localStorage.getItem("authentication");
+
+      // 公開ページでtokenがない場合、checkAuthenticationを実行しない
+      if (isPublic && !hasToken) {
+        setUser(null);
+        setIsAuth(false);
+        return;
+      }
+
       const res = await checkAuthentication();
       const authed = res.code === 200 && !!res.data?.user;
       if (authed && res.data) { setUser(res.data.user); setIsAuth(true); }
