@@ -1,6 +1,6 @@
-import apiClient from "./apiClient";
+import apiClient from "../shared/apis/apiClient";
 import { TodoType, CreateTodoRequest, GetTodoRequest, UpdateTodoRequest, DeleteTodoRequest } from "../types/Todo";
-import { TodoResponseType, AxiosErrorResponseType } from "../types/TodoResponse";
+import { TodoResponseType, AxiosErrorResponseType } from "../shared/types/TodoResponse";
 import { isAxiosError } from "axios";
 
 /**

@@ -1,8 +1,9 @@
 // 単一責任	Template = UI組み立て、カスタムフック = ロジック・状態管理、Organisms = レイアウト、Atoms: 純粋なUI部品
 // Container/Presentational パターンとも呼ばれる
 import styles from "./style.module.css";
-import { BasicLayout, TodoList } from "../../organisms/";
-import { InputFormValidation } from "../../molecules";
+import { TodoList } from "../../organisms/";
+import { BasicLayout } from "../../../shared/components/layouts";
+import { InputFormValidation } from "../../../shared/components/ui";
 import { useTodoTemplate } from "./useTodoTemplate";
 import { Controller } from "react-hook-form";
 

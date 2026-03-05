@@ -1,8 +1,8 @@
 import { Controller } from 'react-hook-form';
 import { useTodoEditTemplate } from './useTodoEditTemplate';
 import { CommonButton } from '../../atoms';
-import { InputFormValidation, TextAreaValidation } from '../../molecules';
-import { BasicLayout } from '../../organisms';
+import { InputFormValidation, TextAreaValidation } from '../../../shared/components/ui';
+import { BasicLayout } from '../../../shared/components/layouts';
 import styles from './style.module.css';
 
 /**

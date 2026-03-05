@@ -1,6 +1,6 @@
 // InputFormは純粋UIのままにし、エラー表示をMoleculeに分離する
 import { FC, ComponentProps } from 'react';
-import { InputForm } from '../../atoms';
+import { InputForm } from '../InputForm';
 import styles from './style.module.css';
 
 // ComponentPropsを使い、React が持つ input の型定義をそのまま参照

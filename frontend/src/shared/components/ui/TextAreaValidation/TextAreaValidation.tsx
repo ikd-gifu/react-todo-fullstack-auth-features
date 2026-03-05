@@ -1,5 +1,5 @@
 import { FC, ComponentProps } from 'react';
-import { CommonTextArea } from '../../atoms';
+import { CommonTextArea } from '../CommonTextArea';
 import styles from './style.module.css';
 
 type TextAreaValidationProps = ComponentProps<typeof CommonTextArea> & {
