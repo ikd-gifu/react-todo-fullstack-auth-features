@@ -1,10 +1,10 @@
 import { useCallback, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router';
-import { NAV_ITEMS } from '../../../constants/navigation';
+import { NAV_ITEMS } from '../../../../constants/navigation';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { getTodoById, updateTodo } from '../../../apis/todoCrud';
+import { getTodoById, updateTodo } from '../../apis/todoCrud';
 
 // オブジェクトスキーマを定義
 const TodoEditFormSchema = z.object({
@@ -40,7 +40,6 @@ export const useTodoEditTemplate = () => {
     formState: { errors },
     setValue,
     setError,
-    clearErrors,
   } = useForm<TodoEditFormSchema>({ // フォーム全体の状態管理と操作APIを提供するフック
     resolver: zodResolver(TodoEditFormSchema),
     defaultValues: {
@@ -64,7 +63,7 @@ export const useTodoEditTemplate = () => {
 
     setValue("title", res.data.title ?? "");
     setValue("content", res.data.content ?? "");
-  }, [id, setValue, setError, clearErrors]);
+  }, [id, setValue, setError]);
 
   useEffect(() => {
     fetchTodo();

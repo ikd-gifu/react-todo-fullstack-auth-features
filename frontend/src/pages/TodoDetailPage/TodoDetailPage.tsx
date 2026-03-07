@@ -1,4 +1,4 @@
-import { TodoDetailTemplate } from "../../components/templates/TodoDetailTemplate";
+import { TodoDetailTemplate } from "../../features/todo/components";
 
 /**
  * Todo詳細ページ

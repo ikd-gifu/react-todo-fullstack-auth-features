@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { useParams } from "react-router";
-import { getTodoById } from "../../../apis/todoCrud";
-import { TodoType } from "../../../types/Todo";
+import { getTodoById } from "../../apis/todoCrud";
+import { TodoType } from "../../types/Todo";
 
 export const useTodoDetailTemplate = () => {
   const { id } = useParams();

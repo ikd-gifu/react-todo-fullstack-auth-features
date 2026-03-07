@@ -1,6 +1,6 @@
 import { useTodoDetailTemplate } from './useTodoDetailTemplate';
-import { InputForm, CommonTextArea } from '../../atoms';
-import { BasicLayout } from '../../../shared/components/layouts';
+import { InputForm, CommonTextArea } from '../../../../shared/components/ui';
+import { BasicLayout } from '../../../../shared/components/layouts';
 import styles from './style.module.css';
 
 /**

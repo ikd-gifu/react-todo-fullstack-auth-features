@@ -1,4 +1,4 @@
-import { TodoCreateTemplate } from '../../components/templates';
+import { TodoCreateTemplate } from '../../features/todo/components';
 
 /**
  * Todo新規作成ページ

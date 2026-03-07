@@ -1,4 +1,4 @@
-import { TodoEditTemplate } from "../../components/templates/TodoEditTemplate";
+import { TodoEditTemplate } from "../../features/todo/components";
 
 /**
  * Todo編集ページ

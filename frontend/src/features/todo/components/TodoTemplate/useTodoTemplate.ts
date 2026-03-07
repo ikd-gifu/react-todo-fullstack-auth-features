@@ -2,8 +2,8 @@ import { useMemo, useState, useEffect, useCallback } from "react";
 import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm, useWatch } from "react-hook-form";
-import { getTodos, deleteTodo } from "../../../apis/todoCrud";
-import { TodoType } from "../../../types/Todo";
+import { getTodos, deleteTodo } from "../../apis/todoCrud";
+import { TodoType } from "../../types/Todo";
 
 // defaultValuesで""を使うため、string型で定義 optionalは不要
 // react-hook-formはフィールド名で値を紐づけるため、

@@ -1,4 +1,4 @@
-import { TodoTemplate } from "../../components/templates";
+import { TodoTemplate } from "../../features/todo/components";
 
 // TodoProviderはmain.jsxでラップしているため、ここでは不要
 export const TodoPage = () => <TodoTemplate />;
