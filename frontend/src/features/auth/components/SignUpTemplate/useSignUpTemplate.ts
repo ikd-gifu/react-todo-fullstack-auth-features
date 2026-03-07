@@ -3,8 +3,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 
-import { signup } from "../../../apis/auth";
-import { useAuthContext } from "../../../hooks/useAuthContext";
+import { signup } from "../../apis/auth";
+import { useAuthContext } from "../../hooks/useAuthContext";
 
 const schema = z
   .object({

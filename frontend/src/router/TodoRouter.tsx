@@ -7,7 +7,7 @@
 import { Routes, Route } from 'react-router';
 import { PATHS } from '../constants/navigation.js';
 import { TodoPage, TodoDetailPage, TodoCreatePage, TodoEditPage } from '../pages/index.js';
-import { AuthenticatedLayout } from './AuthenticatedLayout';
+import { AuthenticatedLayout } from '../features/auth/router/AuthenticatedLayout.js';
 
 export const TodoRouter = () => {
   return (

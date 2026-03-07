@@ -1,4 +1,4 @@
-import apiClient, { isAxiosError } from "../shared/apis/apiClient";
+import apiClient, { isAxiosError } from "../../../shared/apis/apiClient";
 import { AuthType, UserType } from "../types/User";
 
 type ApiResponse<T = undefined> = { code: number; data?: T; message?: string };

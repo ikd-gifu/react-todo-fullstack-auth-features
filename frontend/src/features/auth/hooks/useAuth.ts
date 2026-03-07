@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
-import { NAV_ITEMS } from "../constants/navigation";
+import { NAV_ITEMS } from "../../../constants/navigation";
 import { checkAuthentication } from "../apis/auth";
-import { removeAxiosAuthentication, setAxiosAuthentication } from "../shared/apis/apiClient";
+import { removeAxiosAuthentication, setAxiosAuthentication } from "../../../shared/apis/apiClient";
 import { UserType } from "../types/User";
 
 // 認証ロジック（API確認、signIn/signOut、遷移）の責務

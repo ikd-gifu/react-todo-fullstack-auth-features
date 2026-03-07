@@ -1,7 +1,7 @@
 // Router.tsx
 import { BrowserRouter } from "react-router";
-import { AuthProvider } from "../contexts/AuthContext";
-import { AuthRouter } from "./AuthRouter";
+import { AuthProvider } from "../features/auth/contexts/AuthContext";
+import { AuthRouter } from "../features/auth/router/AuthRouter";
 import { TodoRouter } from "./TodoRouter";
 
 // useAuth のガードでsignIn/signOut判定、遷移させる

@@ -1,2 +1,2 @@
-import { LoginTemplate } from '../../components/templates';
+import { LoginTemplate } from '../../features/auth/components';
 export const LoginPage = () => <LoginTemplate />

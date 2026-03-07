@@ -1,9 +1,9 @@
 import { Controller } from "react-hook-form";
 import { NavLink } from "react-router";
 
-import { CommonButton } from "../../atoms";
-import { InputFormValidation } from "../../../shared/components/ui";
-import { NAV_ITEMS } from "../../../constants/navigation";
+import { CommonButton } from "../../../../shared/components/ui/CommonButton";
+import { InputFormValidation } from "../../../../shared/components/ui";
+import { NAV_ITEMS } from "../../../../constants/navigation";
 
 import { useLoginTemplate } from "./useLoginTemplate";
 import styles from "./style.module.css";

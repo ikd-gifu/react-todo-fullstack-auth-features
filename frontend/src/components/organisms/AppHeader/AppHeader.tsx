@@ -1,4 +1,4 @@
-import { useAuthContext } from "../../../hooks/useAuthContext";
+import { useAuthContext } from "../../../features/auth/hooks/useAuthContext";
 import styles from "./style.module.css";
 
 export const AppHeader = () => {

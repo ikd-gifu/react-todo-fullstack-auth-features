@@ -3,8 +3,8 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 
-import { login } from "../../../apis/auth";
-import { useAuthContext } from "../../../hooks/useAuthContext";
+import { login } from "../../apis/auth";
+import { useAuthContext } from "../../hooks/useAuthContext";
 
 const schema = z.object({
   email: z.string().email("メールアドレスの形式で入力してください"),

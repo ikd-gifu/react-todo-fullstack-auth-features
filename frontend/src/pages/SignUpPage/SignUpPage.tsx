@@ -1,2 +1,2 @@
-import { SignUpTemplate } from '../../components/templates';
+import { SignUpTemplate } from '../../features/auth/components';
 export const SignUpPage = () => <SignUpTemplate />
