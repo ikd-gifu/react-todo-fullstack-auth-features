@@ -5,7 +5,7 @@
 // Router.tsx - <BrowserRouter>のラッパー
 // TodoRouter.tsx - <Routes>と<Route>の定義
 import { Routes, Route } from 'react-router';
-import { PATHS } from '../../../constants/navigation.js';
+import { PATHS } from '../../../shared/constants/navigation.js';
 import { TodoPage, TodoDetailPage, TodoCreatePage, TodoEditPage } from '../../../pages/index.js';
 import { AuthenticatedLayout } from '../../auth/router/AuthenticatedLayout.js';
 

@@ -3,7 +3,7 @@ import { NavLink } from "react-router";
 
 import { CommonButton } from "../../../../shared/components/ui/CommonButton";
 import { InputFormValidation } from "../../../../shared/components/ui";
-import { NAV_ITEMS } from "../../../../constants/navigation";
+import { NAV_ITEMS } from "../../../../shared/constants/navigation";
 
 import { useSignUpTemplate } from "./useSignUpTemplate";
 import styles from "./style.module.css";

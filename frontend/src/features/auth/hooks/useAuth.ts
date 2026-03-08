@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router";
-import { NAV_ITEMS } from "../../../constants/navigation";
+import { NAV_ITEMS } from "../../../shared/constants/navigation";
 import { checkAuthentication } from "../apis/auth";
 import { removeAxiosAuthentication, setAxiosAuthentication } from "../../../shared/apis/apiClient";
 import { UserType } from "../types/User";

@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt, faEdit, faFile } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate } from "react-router";
-import { NAV_ITEMS } from "../../../constants/navigation";
+import { NAV_ITEMS } from "../../../../shared/constants/navigation";
 
 import styles from "./style.module.css";
 import { FC } from "react";

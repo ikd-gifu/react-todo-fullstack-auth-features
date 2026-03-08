@@ -1,7 +1,8 @@
+// Todoコンポーネントの共通部品なのでcomponents/sharedに配置
 // ButtonGroup を新規作成、複数のボタンを横に並べるコンポーネント
 // Atomic Design の原則（Molecules は複数のAtomsを組み合わせる）
-import { LinkButton } from '../../atoms';
-import { NAV_ITEMS } from '../../../constants/navigation';
+import { LinkButton } from '../LinkButton';
+import { NAV_ITEMS } from '../../../../../shared/constants/navigation';
 import styles from "./style.module.css";
 
 /**

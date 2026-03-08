@@ -1,6 +1,6 @@
 import { useCallback, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router';
-import { NAV_ITEMS } from '../../../../constants/navigation';
+import { NAV_ITEMS } from '../../../../shared/constants/navigation';
 import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';

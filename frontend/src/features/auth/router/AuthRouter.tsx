@@ -1,6 +1,6 @@
 // AuthRouter.tsx
 import { Routes, Route } from "react-router";
-import { PATHS } from "../../../constants/navigation";
+import { PATHS } from "../../../shared/constants/navigation";
 import { LoginPage, SignUpPage } from "../../../pages";
 
 export const AuthRouter = () => (

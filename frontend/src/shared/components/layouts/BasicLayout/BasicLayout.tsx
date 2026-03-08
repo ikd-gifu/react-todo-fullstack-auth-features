@@ -1,6 +1,6 @@
 // BasicLayout を新規作成、ページ全体の基本レイアウトを提供
 // Atomic Design の原則（Organisms は機能的なコンポーネント）
-import { ButtonGroup } from '../../../../components/molecules';
+import { ButtonGroup } from '../../../../features/todo/components/shared';
 import styles from "./style.module.css";
 import { FC, ReactNode } from "react";
 
