@@ -1,3 +1,5 @@
+// useAuthContext 依存あり（例外的に shared に配置）
+// ヘッダーが肥大化したらUI/Container分離する
 import { useAuthContext } from "../../../../features/auth/hooks/useAuthContext";
 import styles from "./style.module.css";
 

@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client' // React 18 以降の新しいレンダリング方法
-import Router from './router/Router'
+import { Router } from './routers'
 import './index.css'
 
 // main.jsxはアプリケーションのエントリーポイントとして機能

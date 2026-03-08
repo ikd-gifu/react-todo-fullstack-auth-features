@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from "react-router";
 import { NAV_ITEMS } from "../../../shared/constants/navigation";
 import { checkAuthentication } from "../apis/auth";
 import { removeAxiosAuthentication, setAxiosAuthentication } from "../../../shared/apis/apiClient";
-import { UserType } from "../types/User";
+import { UserType } from "../../users/types/User";
 
 // 認証ロジック（API確認、signIn/signOut、遷移）の責務
 export const useAuth = () => {

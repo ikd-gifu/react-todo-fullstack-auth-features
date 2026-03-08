@@ -1,6 +1,6 @@
 import { createContext, type FC, type ReactNode } from "react";
 import { useAuth } from "../hooks/useAuth";
-import { type UserType } from "../types/User";
+import { type UserType } from "../../users/types/User";
 
 type AuthContextProps = {
   children: ReactNode;

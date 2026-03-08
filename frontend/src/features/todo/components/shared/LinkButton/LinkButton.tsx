@@ -1,3 +1,4 @@
+// Todoコンポーネントの共通部品なのでcomponents/sharedに配置
 // LinkButton を新規作成、ナビゲーション用のボタンコンポーネント
 // Atomic Design の原則（Atoms は純粋なUI）
 import { useNavigate } from 'react-router';
