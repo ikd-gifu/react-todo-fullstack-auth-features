@@ -32,28 +32,14 @@
 - ドメイン実体の型は、そのドメインfeatureへ配置
   - 例: `UserType` は `features/users/types`
 - 認証処理など手続き固有の型は `features/auth/types` へ配置
-  - 例: `LoginRequest`, `AuthResponse`
+  - 例: `AuthType` は `features/auth/types/auth.ts`
 
 ### 4. ルーティング方針
 
 - ルート定数は `shared/constants/navigation` に集約
 - `main.tsx` は `src/routers` から `Router` を読み込む
-- feature内のrouter命名は `routers` で統一
 
-### 5. 移行時に重視したこと
-
-- まず「配置変更」を優先し、責務変更は最小限に留める
-- 1機能ずつ移行して都度動作確認
-- `shared` へ過剰に寄せず、必要なものだけ共通化する
-
-### 6. 完了確認チェック
-
-- [ ] `npm run dev` で主要画面が表示できる
-- [ ] ログイン/新規登録/Todo一覧/作成/詳細/編集が動作する
-- [ ] `npm run build` が成功する
-- [ ] 旧パス（`src/router`, 旧 `components` 参照など）が残っていない
-
-### 7. 補足（今回の判断）
+### 5. 補足（今回の判断）
 
 - `ButtonGroup` は Todo機能内共通として `features/todo/components/shared` に配置
 - `TodoList` は `TodoTemplate` 専用のため `features/todo/components` に配置

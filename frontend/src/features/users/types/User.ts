@@ -6,8 +6,3 @@ export type UserType = {
   createdAt: string;
   updatedAt: string;
 };
-
-export type AuthType = {
-  token: string;
-  user: UserType;
-};
